@@ -31,7 +31,7 @@ cat << EOF > /etc/sing-box/config.json
         {
             "type": "vmess",
             "tag": "vmess-in",
-            "listen": "127.0.0.1",
+            "listen": "0.0.0.0",
             "listen_port": 23323,
             "tcp_fast_open": true,
             "sniff": true,
